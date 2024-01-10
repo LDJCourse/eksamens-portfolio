@@ -54,10 +54,8 @@ body {
   flex-direction: column;
 }
 
-.job_intro_container > div {
+.job_intro_container > p {
   width: 50%;
-}
-.job_intro_container > div p {
   font-size: 20px;
   line-height: 50px;
 }
@@ -138,16 +136,13 @@ body {
     font-size: 38px;
   }
 
-  .job_intro_container > div {
-    width: 100%;
-  }
-
   .job_intro_container {
     color: #fcf2e2;
     background: rgba(36, 37, 39, 1);
   }
 
-  .job_intro_container > div p {
+  .job_intro_container > p {
+    width: 90%;
     font-size: 25px;
     line-height: 40px;
     padding: 0 30px;
